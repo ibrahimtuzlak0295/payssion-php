@@ -1,11 +1,11 @@
 payssion-php
 ============
 
-##Prerequisites
+## Prerequisites
    * PHP 5.3 or above
    * curl, json & openssl extensions must be enabled
    
-##Usage
+## Usage
 ``` php
 $payssion = new PayssionClient('your api key', 'your secretkey');
 //please uncomment the following if you use sandbox api_key
